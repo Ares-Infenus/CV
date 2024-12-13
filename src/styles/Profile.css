@@ -1,0 +1,36 @@
+.profile-entry {
+    background-color: black;
+}
+
+#Photo_profile {
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover; /* Asegura que la imagen mantenga su proporción y se recorte adecuadamente */
+    border-radius: 50%;
+}
+/* Asegura que el contenido textual no se desborde */
+.text-content {
+    max-width: 40%;
+    padding-bottom: 30vh;
+    color: aquamarine;
+}
+
+
+/* Título y descripción */
+#Titule {
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#Frase {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    -webkit-background-clip: text; /* Aplica el degradado al texto */
+            -webkit-text-fill-color: transparent; /* Hace que solo el texto muestre el degradado */
+}
+
+#Description {
+    padding-top: 2vh;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #8f9094;
+}

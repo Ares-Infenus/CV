@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    display: flex; /* Opcional: para centrar contenido */
+    justify-content: center; /* Opcional: centrar horizontalmente */
+    align-items: center; /* Opcional: centrar verticalmente */
+}

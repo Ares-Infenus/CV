@@ -9,9 +9,16 @@
 
     <link rel="stylesheet" href="styles/Profile.css"> <!-- CSS for Profile Section -->
     <link rel="stylesheet" href="styles/Profile_buttom.css"> <!-- CSS for Profile Section -->
+    
+    <link rel="stylesheet" href="styles/About_me.css"> <!-- CSS for Section About me -->
+
 
     <link rel="stylesheet" href="styles/Inspiration.css"> <!-- CSS for Profile Section -->
-
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Profile Entry -->
@@ -19,7 +26,8 @@
         <div class="text-content">
             <p id="Titule"><span id="Frase">I build data-driven solutions</span> that drive insights and empower decision-making.</p>
             <p id="Description">Hi! I'm Sebastián, a Data Scientist based in Colombia. I combine machine learning, analytics, and cloud technologies to transform data into actionable strategies and scalable insights.</p>
-            <button class="download-button">
+            <div class="Botones">
+              <button class="download-button">
                 <div class="docs">
                   <svg
                     viewBox="0 0 24 24"
@@ -60,14 +68,16 @@
                   </svg>
                 </div>
               </button>
-              <button class="pushable">
-                <span class="front">
-                  Push me
-                </span>
-              </button>
-              
+              <div class="Boton_2">
+                <button class="pushable">
+                  <span class="front">
+                    Projects.
+                  </span>
+                </button>
+              </div>
+            </div>
         </div>
-        <img id="Photo_profile" src="img/Perfil.png" alt="Descripción de la imagen">
+        <img id="Photo_profile" src="img/Perfil.png" alt="Imagen de perfil">
     </section>
     <hr>
     <!-- Inspirational Quote -->
@@ -77,8 +87,14 @@
     <hr>
     <!-- About Me -->
     <section class="about-me">
-        <h2>About Me</h2>
-        About Me
+        <div id="text_content_about_me">
+          <h2 id="Title_about_me">About Me</h2>
+          <p id="description_about_me">I consider myself a cheerful, resilient and determined person, always looking for solutions even in the most difficult challenges. I believe in the power of leadership and the responsibility to inspire and uplift others, knowing that true success comes from constant growth and learning. My goal is not only to be my best version, but to overcome the limits imposed by my mind and master every action and thought with will and clarity, reaching perfection in the total control of body and mind.</p>
+        </div>
+        <div id="img_about_me">
+          <img id="Photo_about_me" src="img/About_me/Imagen_Reference.webp" alt="Dibujo con animacion para rellenar espacio">
+        </div>
+
     </section>
     <hr>
     <!-- Work Experience -->

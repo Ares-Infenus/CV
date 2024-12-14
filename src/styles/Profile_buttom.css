@@ -1,4 +1,9 @@
 /* From Uiverse.io by barisdogansutcu */ 
+.Botones{
+  padding-top: 5vh;
+  display: flex;
+  align-items: center; /* Centra el contenido del botón */
+}
 .download-button {
     position: relative;
     border-width: 0;
@@ -44,7 +49,7 @@
     z-index: -1;
     border-radius: 4px;
     transform: translateY(0%);
-    background-color: #01e056;
+    background-color: #3ccf91;
     border: solid 1px #01e0572d;
     transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
   }
@@ -73,7 +78,7 @@
   }
 
   .pushable {
-    background: hsl(340deg 100% 32%);
+    background: #237754;
     border: none;
     border-radius: 12px;
     padding: 0;
@@ -85,7 +90,7 @@
     padding: 12px 42px;
     border-radius: 12px;
     font-size: 1.25rem;
-    background: hsl(345deg 100% 47%);
+    background: #3ccf91;
     color: white;
     transform: translateY(-6px);
   }
@@ -93,3 +98,7 @@
   .pushable:active .front {
     transform: translateY(-2px);
   }
+
+.Boton_2{
+  padding-left: 5vh;
+}

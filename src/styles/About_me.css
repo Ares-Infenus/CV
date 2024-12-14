@@ -6,19 +6,26 @@
     padding-right: 10vh;
 }
 .about-me {
-    background-color: black;
+    background-color:  #100c0c ;
 }
 #description_about_me{
     color: white;
     font-size: 4vh;
+    font-family: "IBM Plex Sans", serif;
 
 }
 #Title_about_me{
-    color: gray;
+    background: linear-gradient(to top, white, #47ffb2);
+    -webkit-background-clip: text; /* Aplica el degradado al texto */
+    -webkit-text-fill-color: transparent; /* Hace que solo el texto muestre el degradado */
     font-size: 10vh;
     padding-bottom: 5vh;
+    font-family: "Merriweather", serif;
 }
 #Photo_about_me{
     width: 80vh;
     height: auto;
+}
+#Expensive_text{
+    color: #49ffb3;
 }

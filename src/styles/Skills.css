@@ -1,0 +1,65 @@
+
+#Title_skills{
+    background: rgb(70, 211, 70);;
+    -webkit-background-clip: text; /* Aplica el degradado al texto */
+    -webkit-text-fill-color: transparent; /* Hace que solo el texto muestre el degradado */
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    text-align: center;  /* Centra el texto */
+    background-color:  white;
+  }
+  
+  .Data_Vis,
+  .Cloud {
+    margin-top: 20px; /* Espaciado entre secciones */
+  }
+  #Title_second{
+    color: gray;
+  }
+
+.Photo_skills_lenguagues{
+    width: 10vh;
+    height: auto;
+}
+.Border_Skills{
+    border-radius: 10px; /* Redondea las esquinas */
+    width: 20vh;
+    height: 10vh;
+    border: 0.3vh solid gray; /* 2px de grosor, tipo sólido, color rojo */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    display: flex; /* Activa Flexbox */
+}
+.image_skilLs {
+    display: flex; /* Activa Flexbox */
+    flex-wrap: wrap; /* Permite que los divs pasen a una nueva fila si no caben */
+    justify-content: center; /* Centra los divs horizontalmente */
+    gap: 10px; /* Espaciado entre los divs */
+  }
+#HTML{
+    width: 6vh;
+    height: auto;
+}
+#Javascript{
+    width: 9vh;
+    height: auto;
+}
+#Python{
+    width: 16vh;
+    height: auto;
+}
+#R{
+    width: 9vh;
+    height: auto;
+}
+#Latex{
+    width: 10vh;
+    height: auto;
+}
+#C{
+    width: 9vh;
+    height: auto;
+}

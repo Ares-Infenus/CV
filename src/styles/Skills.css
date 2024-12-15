@@ -1,8 +1,8 @@
 
 #Title_skills{
-    background: rgb(70, 211, 70);;
-    -webkit-background-clip: text; /* Aplica el degradado al texto */
-    -webkit-text-fill-color: transparent; /* Hace que solo el texto muestre el degradado */
+    color: black;
+    font-family:  "Merriweather", serif;
+    font-size: 5vh;
 }
 .skills {
     display: flex;
@@ -34,6 +34,7 @@
     display: flex; /* Activa Flexbox */
 }
 .image_skilLs {
+    padding-top: 2vh;
     display: flex; /* Activa Flexbox */
     flex-wrap: wrap; /* Permite que los divs pasen a una nueva fila si no caben */
     justify-content: center; /* Centra los divs horizontalmente */
@@ -63,3 +64,103 @@
     width: 9vh;
     height: auto;
 }
+#Postgre_SQL{
+    width: 9vh;
+    height: auto;
+} 
+#SQL{
+    width: 10vh;
+    height: auto;
+} 
+#Mongo_DB{
+    width: 15vh;
+    height: auto;
+} 
+#Hadoop{
+    width: 16vh;
+    height: auto;
+} 
+#Apache{
+    width: 10vh;
+    height: auto;
+} 
+#Azure{
+    width: 14vh;
+    height: auto;
+} 
+#Tensorflow{
+    width: 14vh;
+    height: auto;
+} 
+#Pytorch{
+    width: 13vh;
+    height: auto;
+} 
+#Keras{
+    width: 13vh;
+    height: auto;
+} 
+#Scikit{
+    width: 10vh;
+    height: auto;
+} 
+#Pandas{
+    width: 14vh;
+    height: auto;
+} 
+#Numpy{
+    width:15vh;
+    height: auto;
+} 
+#Numba{
+    width:5vh;
+    height: auto;
+} 
+#Tableau{
+    width:30vh;
+    height: auto;
+} 
+#PowerBi{
+    width:15vh;
+    height: auto;
+} 
+#Plotly{
+    width:20vh;
+    height: auto;
+} 
+#Matplotlib{
+    width:15vh;
+    height: auto;
+}
+#Seaborn{
+    width:15vh;
+    height: auto;
+}  
+#Excel{
+    width:13vh;
+    height: auto;
+}  
+#AWS{
+    width:15vh;
+    height: auto;
+}  
+#Google{
+    width:15vh;
+    height: auto;
+}  
+#Docker{
+    width:15vh;
+    height: auto;
+}  
+#Visual_Studio{
+    width:17vh;
+    height: auto;
+} 
+#Jupyter{
+    width:7vh;
+    height: auto;
+} 
+#Spyder{
+    width:14vh;
+    height: auto;
+} 

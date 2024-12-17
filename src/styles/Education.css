@@ -1,0 +1,87 @@
+#Section.Education{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+#University.Education{
+    width: 110vh;
+    height: 15vh;
+    border: 3px;
+    border-color: black;
+}
+#Photo.University{
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    justify-content: center;   /* Centra horizontalmente */
+    align-items: center;       /* Centra verticalmente */
+    display: flex;
+}
+#Description.University{
+    background-color: white;
+    width: 70%;
+    height: 80%;
+    color: black;
+    padding-left: 2vh;
+}
+#Title.University{
+    font-family: "Merriweather", serif;
+    font-size: 100%;
+}
+#Title.Collegue{
+    font-family: "Merriweather", serif;
+    font-size: 90%;
+}
+#Degree.University{
+    font-size: 70% ;
+    font-family: "IBM Plex Sans", serif;
+
+}
+#Time.University{
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;   /* Centra horizontalmente */
+    align-items: center;       /* Centra verticalmente */
+}
+#University {
+    display: flex; /* Activa el diseño en flexbox */
+    align-items: center; /* Centra los elementos verticalmente */
+
+}
+#UNAL.University{
+    max-width: 90%;            /* Mantiene la imagen responsiva */
+    height: auto;              /* Mantiene las proporciones de la imagen */
+    border-radius: 50%;    /* Hace que la imagen sea circular */
+
+}
+#Fondo_white.University{
+    background-color: white;
+    width: 54%;
+    height: 70%;
+    display: flex;
+    justify-content: center;   /* Centra horizontalmente */
+    align-items: center;       /* Centra verticalmente */
+    border-radius: 50%;    /* Hace que la imagen sea circular */
+    border: 3px solid #000; /* Cambia el grosor, estilo y color del borde */
+
+
+}
+#Title_section.title{
+    font-size: 5vh;
+    font-family: "Merriweather", serif;
+    padding-bottom: 5vh;
+
+}
+#Section {
+    display: flex;
+    flex-direction: column; /* Coloca los hijos en columna */
+    align-items: center;    /* Centra los hijos horizontalmente (opcional) */
+  }
+#Alfonso.Collegue{
+    max-width: 70%;            /* Mantiene la imagen responsiva */
+    height: auto;              /* Mantiene las proporciones de la imagen */
+    border-radius: 50%;    /* Hace que la imagen sea circular */
+}

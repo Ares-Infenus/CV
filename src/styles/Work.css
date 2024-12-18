@@ -1,10 +1,11 @@
 #Section.Work{
-    background-color: Black;
+    background-color: #100c0c;
 }
 #Title.Work{
     color: white;
-    font-size: 6.5vh;
+    font-size: 5vh;
     font-family: "Merriweather", serif;
+    padding-bottom: 4vh;
 
 }
 #Front_content.Work{

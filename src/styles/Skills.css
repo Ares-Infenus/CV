@@ -1,15 +1,15 @@
 
 #Title_skills{
-    color: black;
+    color: white;
     font-family:  "Merriweather", serif;
-    font-size: 5vh;
+    font-size: 6.5vh;
 }
 .skills {
     display: flex;
     flex-direction: column;
     align-items: center; /* Centra horizontalmente */
     text-align: center;  /* Centra el texto */
-    background-color:  white;
+    background-color:  #100c0c;
   }
   
   .Data_Vis,
@@ -32,6 +32,7 @@
     align-items: center; /* Centra verticalmente */
     justify-content: center; /* Centra horizontalmente */
     display: flex; /* Activa Flexbox */
+    background-color: white;
 }
 .image_skilLs {
     padding-top: 2vh;

@@ -1,17 +1,18 @@
 #Section.Education{
-    background-color: white;
+    background-color: #100c0c;
     display: flex;
     width: 100%;
-    height: 50%;
+    height:39%;
+    color: white;
 }
 #University.Education{
     width: 110vh;
     height: 15vh;
     border: 3px;
-    border-color: black;
+    border-color: #100c0c;
 }
 #Photo.University{
-    background-color: white;
+    background-color: #100c0c;
     width: 20%;
     height: 100%;
     justify-content: center;   /* Centra horizontalmente */
@@ -19,15 +20,16 @@
     display: flex;
 }
 #Description.University{
-    background-color: white;
+    background-color: #100c0c;
     width: 70%;
     height: 80%;
-    color: black;
+    color: white;
     padding-left: 2vh;
 }
 #Title.University{
     font-family: "Merriweather", serif;
     font-size: 100%;
+    color: white;
 }
 #Title.Collegue{
     font-family: "Merriweather", serif;
@@ -39,7 +41,8 @@
 
 }
 #Time.University{
-    background-color: white;
+    background-color: #100c0c;
+    color: white;
     width: 20%;
     height: 100%;
     display: flex;

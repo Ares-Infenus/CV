@@ -11,3 +11,25 @@ section {
     justify-content: center; /* Opcional: centrar horizontalmente */
     align-items: center; /* Opcional: centrar verticalmente */
 }
+/* Cambiar el ancho de la barra */
+::-webkit-scrollbar {
+    width: 2vh; /* Ancho de la barra vertical */
+    height: 2vh; /* Ancho de la barra horizontal */
+  }
+  
+  /* Fondo de la barra */
+  ::-webkit-scrollbar-track {
+    background: #111;
+  }
+  
+  /* Color de la barra */
+  ::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 5px;
+  }
+  
+  /* Cambiar color al interactuar */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #47ffb2;
+  }
+  

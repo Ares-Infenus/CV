@@ -1,12 +1,12 @@
 #text_content_about_me{
     padding-left: 20vh;
-    padding-right: 30vh;
+    padding-right: 15vh;
 }
-#img_about_me{
-    padding-right: 30vh;
-}
+
 .about-me {
     background-color:  #100c0c ;
+    width: 100%;
+    height: 70%;
 }
 #description_about_me{
     color: white;
@@ -23,13 +23,11 @@
     font-family: "Merriweather", serif;
 }
 #Photo_about_me{
-    width: 80vh;
+    width: 60vh;
     height: auto;
+    padding-right: 10vh;
 }
 #Expensive_text{
     color: #49ffb3;
 }
-.about-me{
-    padding-left: 10vh;
 
-}

@@ -1,9 +1,89 @@
-.certifications{
+#Education.certifications{
     background-color: black;
     display: flex;
     width: 100%;
     height: 100%;
 }
-#Title_section.certifications{
-    color: white;
+#Certificate.Education{
+    width: 110vh;
+    height: 15vh;
+    border: 3px;
+    border-color: white;
 }
+#Photo.Certificate{
+    background-color: black;
+    width: 20%;
+    height: 100%;
+    justify-content: center;   /* Centra horizontalmente */
+    align-items: center;       /* Centra verticalmente */
+    display: flex;
+}
+#Description.Certificate{
+    background-color: black;
+    width: 70%;
+    height: 80%;
+    color: white;
+    padding-left: 2vh;
+}
+#Title.Certificate{
+    color: white;
+    font-family: "Merriweather", serif;
+    font-size: 95%;
+}
+
+#Degree.Certificate{
+    font-size: 70% ;
+    font-family: "IBM Plex Sans", serif;
+
+}
+#Time.Certificate{
+    background-color: black;
+    color: white;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;   /* Centra horizontalmente */
+    align-items: center;       /* Centra verticalmente */
+}
+#Certificate {
+    display: flex; /* Activa el diseño en flexbox */
+    align-items: center; /* Centra los elementos verticalmente */
+
+}
+#IBM.Certificate{
+    max-width: 80%;            /* Mantiene la imagen responsiva */
+    height: auto;              /* Mantiene las proporciones de la imagen */
+}
+#Michigan.Certificate{
+    max-width: 100%;            /* Mantiene la imagen responsiva */
+    height: auto;              /* Mantiene las proporciones de la imagen */
+}
+#General.Certificate{
+    max-width: 90%;            /* Mantiene la imagen responsiva */
+    height: auto;              /* Mantiene las proporciones de la imagen */
+    border-radius: 50%;    /* Hace que la imagen sea circular */
+}
+#Fondo_white.Certificate{
+    background-color: white;
+    width: 54%;
+    height: 70%;
+    display: flex;
+    justify-content: center;   /* Centra horizontalmente */
+    align-items: center;       /* Centra verticalmente */
+    border-radius: 50%;    /* Hace que la imagen sea circular */
+    border: 3px solid #000; /* Cambia el grosor, estilo y color del borde */
+
+
+}
+#Title_section.certifications{
+    font-size: 5vh;
+    font-family: "Merriweather", serif;
+    padding-bottom: 5vh;
+    color: white;
+
+}
+#Education.certifications {
+    display: flex;
+    flex-direction: column; /* Coloca los hijos en columna */
+    align-items: center;    /* Centra los hijos horizontalmente (opcional) */
+  }

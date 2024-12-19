@@ -1,6 +1,4 @@
-#Section.Work{
-    background-color: #100c0c;
-}
+
 #Title.Work{
     color: white;
     font-size: 5vh;
@@ -17,10 +15,11 @@
     justify-content: space-between; /* Espacia los elementos dentro del contenedor */
     align-items: center; /* Alinea verticalmente los elementos si tienen alturas diferentes */
 }
-#Section.Work {
+#Section_Work.Work {
     display: flex;
     flex-direction: column; /* Alinear elementos en columna (uno debajo del otro) */
     align-items: center; /* Centrar horizontalmente */
+    background-color: #100c0c;
   }
   
 #Title_Content.Work {
@@ -40,8 +39,6 @@
 #Description.Work_content{
     height: 98%;
     width: 57vh;
-
-    
 }
 #Logros.Work_content{
     height: 100%;

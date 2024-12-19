@@ -1,9 +1,12 @@
-#Section.Education{
+#Section_Education.Education{
     background-color: #100c0c;
     display: flex;
     width: 100%;
     height:39%;
     color: white;
+    display: flex;
+    flex-direction: column; /* Coloca los hijos en columna */
+    align-items: center;    /* Centra los hijos horizontalmente (opcional) */
 }
 #University.Education{
     width: 110vh;
@@ -78,11 +81,6 @@
     padding-bottom: 5vh;
 
 }
-#Section {
-    display: flex;
-    flex-direction: column; /* Coloca los hijos en columna */
-    align-items: center;    /* Centra los hijos horizontalmente (opcional) */
-  }
 #Alfonso.Collegue{
     max-width: 70%;            /* Mantiene la imagen responsiva */
     height: auto;              /* Mantiene las proporciones de la imagen */
